@@ -6,5 +6,5 @@ This robot is based in this projects:
   * http://robotics.hobbizine.com/arduinoann.html
   * https://github.com/IdleHandsProject/makennbot
   
-![](https://jnogues/neuralBot/images/poster1.png )  
+![AltText](https://github.com/jnogues/neuralBot/blob/master/images/poster1.png)  
 
