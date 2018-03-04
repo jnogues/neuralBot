@@ -2,7 +2,7 @@
 ## rPrimTech neuralBot source code
 
 A robot for try neural neworks in simple robots. 
-This project is based in this projects:
+This project is based in:
 
   * http://robotics.hobbizine.com/arduinoann.html
   * https://github.com/IdleHandsProject/makennbot
