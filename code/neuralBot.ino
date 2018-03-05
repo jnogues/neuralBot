@@ -61,9 +61,7 @@ const float Momentum = 0.1;//0.9
 const float InitialWeightMax = 0.5;
 const float Success = 0.04;//0.004;
 
-float Input[PatternCount][InputNodes] = 
-{
-
+float Input[PatternCount][InputNodes] = {
   {1.0, 1.0},   // 30 30
   {1.0, 0.833}, // 30 25
   {0.833, 1.0}, // 25 30
@@ -258,7 +256,7 @@ void setup()
   timer.setInterval(100, checkButtons);
   timer.setInterval(200, showDistances);
   
-  //trainNeuralNetwork();saveWeights2eeprom(); //unncomment for train networl and save results
+  //trainNeuralNetwork();saveWeights2eeprom(); //unncomment for train network and save results
   
   readWeights2eeprom(); 
 }  
@@ -476,8 +474,7 @@ void readWeights2eeprom()
 }
 
 void trainNeuralNetwork()
-{
-  
+{  
   display.clear();
   display.drawString(0, 0, "Training...");
   display.display();
