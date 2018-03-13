@@ -29,8 +29,8 @@
  ******************************************************************/
 
 #include <math.h>
-#include <EEPROM.h>
 #include <Arduino.h>
+#include <EEPROM.h>
 #include <Wire.h>
 #include <VL53L0X.h>      //https://github.com/pololu/vl53l0x-arduino
 #include "SSD1306.h"      //https://github.com/squix78/esp8266-oled-ssd1306
